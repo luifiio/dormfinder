@@ -1,0 +1,35 @@
+#room-container
+{
+height:80px;
+margin-top:20px;
+opacity: 0.6;
+border-top:dashed 1px;
+border-bottom:dashed 1px;
+-webkit-transition:all 0.5s;
+}
+
+#room-container:hover
+{
+    opacity:1;
+    transition:0.3s;
+    color:rgb(180, 101, 233);
+    font-weight:bold;
+    border-top:dashed 1px;
+    border-bottom:dashed 1px;
+    margin-top:30px;
+    margin-bottom:30px;
+    cursor:pointer;
+}
+
+#rooms-container
+{
+    margin-top:7%;
+    margin-bottom:7%;
+}
+
+#room-list-text
+{
+position:absolute;
+}
+
+/*EVENTLISTS IDs*//*EVENTLISTS IDs*//*EVENTLISTS IDs*/

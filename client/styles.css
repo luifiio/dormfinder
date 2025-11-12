@@ -1,0 +1,84 @@
+
+@viewport 
+{ 
+    width: device-width;
+}
+
+
+body
+{
+background-color:rgba(255, 255, 255, 0.623);
+color: rgb(19, 18, 18);
+margin:auto;
+max-width:64%;
+font: 19px Courier new;
+}
+
+a:hover 
+{
+    border-bottom: 2px solid;
+    color:rgb(180, 101, 233);
+}
+
+
+a:link, a:active, a:visited 
+{
+    text-decoration: none;
+}
+
+
+h1
+{
+font: 22px Courier new;
+font-weight:bold;
+text-align: center;
+color:rgb(180, 101, 233);
+}
+
+#main-title
+{
+    max-width: 45%;
+    margin:auto;
+
+}
+
+#navbar 
+{
+    padding: 23px;
+    text-align: center;
+    border-top: 1px solid;
+    border-bottom: 1px dashed;
+    margin-top:15px;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+}
+
+
+#footerbar 
+{
+    padding: 23px;
+    text-align: center;
+    border-top: 1px dashed;
+    border-bottom: 1px solid;
+    margin-top:15px;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+}
+
+#footercontent
+{
+    cursor:pointer;
+}
+
+#currentpage
+{
+    border-bottom: 2px solid;
+    color:rgb(180, 101, 233);
+}
+
+#intro
+{   
+
+    text-align:center;
+}
+

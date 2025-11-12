@@ -1,0 +1,48 @@
+/*EVENTDETAIL IDs*//*EVENTDETAIL IDs*//*EVENTDETAIL IDs*//*EVENTDETAIL IDs*/
+
+#room-container
+{
+margin-bottom:35px;
+}
+#event-detail-desc
+{
+    text-align:center;
+}
+
+#room-name
+{
+font-size:22px;
+font-weight:bold;
+color:rgb(180, 101, 233);
+text-align:center;
+}
+
+#room-detail-param
+{
+    color:rgb(180, 101, 233);
+    font-weight: bold;
+    margin-inline-start: 20%;
+}
+
+
+#applycontainer
+{
+    height:150px;
+    margin-top:20px;
+    opacity: 0.6;
+    border-top:dashed 1px;
+    border-bottom:dashed 1px;
+    -webkit-transition:all 0.5s;   
+}
+#applycontainer:hover
+{
+    opacity:1;
+    transition:0.3s;
+    color:rgb(180, 101, 233);
+    font-weight:bold;
+    border-top:dashed 1px;
+    border-bottom:dashed 1px;
+    margin-top:30px;
+    margin-bottom:30px;
+    cursor:pointer;
+}

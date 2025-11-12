@@ -1,0 +1,27 @@
+/*CONTACT IDs*//*CONTACT IDs*//*CONTACT IDs*/
+#search-desc
+{
+    text-align:center;
+}
+
+
+#searchcontainer
+{
+    height:50%;
+    text-align: center;
+}
+
+form
+{
+
+margin-top:50px;
+margin-bottom:150px;
+}
+
+
+input
+{
+    margin-bottom:25px;
+    width:40%;
+}
+

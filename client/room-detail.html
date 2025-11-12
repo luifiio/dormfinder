@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>dorm finder</title>    
+    <meta charset="UFT-8">
+
+    <meta name="author" content="lui handford">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/usr-search.css"
+    <script src="script.js"></script>
+
+
+    <script src="scripts/roomdetail.js"></script>
+    <link rel="stylesheet" href="styles/room-style.css">
+
+ 
+
+    <!--TITLE-->
+    <h1>dorm finder n1076024</h1>
+    <!--TITLE-->
+    
+    <div id="navbar">
+        
+        <a href="index.html">home</a> /
+        <a href="rooms.html">rooms</a>
+        <a href = "user-search.html">/applications</a>
+    </div>
+
+</head>
+
+
+
+
+<body onload="loadRoomDetail()">
+
+<h1 id="room-name" style="padding-bottom: 50px;"></h1>
+
+<div id="room-container">
+
+    <div>
+        <span id="room-detail-param">price per month:£</span>
+        <span id="room-ppm"></span>
+    </div>
+
+    <span id="room-detail-param">availiability date:</span>
+    <span id="room-availabilityDate"></span>
+
+    <br>
+    <span id="room-detail-param">Spoken languages:</span>
+    <span id="room-languages"></span>
+    
+    <br><br>
+    
+    <!--LOCALE-->
+    <span id="room-detail-param">City:</span>
+    <span id="room-location"></span>
+    <br>
+    <span id="room-detail-param">County:</span>
+    <span id="room-county"></span>
+    <br>
+    <span id="room-detail-param">Postcode:</span>
+    <span id="room-postcode"></span>
+    <br><br>
+
+    <!--ROOMDETAILS-->
+    <span id="room-detail-param">Furnished?:</span>
+    <span id="room-furnished"></span>
+    <br>
+
+    <span id="room-detail-param">Amenties:</span>
+    <span id="room-amenities"></span>
+    <br>
+    <span id="room-detail-param">Shared with:</span>
+    <span id="room-count"></span>
+    <br>
+    <span id="room-detail-param">landlord livein:</span>
+    <span id="room-landlord"></span>
+    <br>
+    <span id="room-detail-param">bills included:</span>
+    <span id="room-bills"></span>
+    <br>
+    <span id="room-detail-param">bathroom shared:</span>
+    <span id="room-bathroom"></span>
+</div>
+
+<div id="room-container">
+    <span id="room-detail-param">current weather:</span>
+    <span id="room-weather"></span>
+</div>
+
+    <div id="searchcontainer">
+        
+            <p>enter postcode to calcute distance to dorm.</p>
+            <label for="apply">postcode:</label>
+            <input type="text" id="usrpostcode" name="postcode">
+            <br>
+        
+            <button onclick="distanceCalculation()">calculate distance</button>
+            <p id="distanceCal"></p>
+        
+    </div>
+        
+
+<br><br>
+
+<div id="applycontainer">
+        
+    <p style="text-align: center" id="applyChar">to apply for this room, please enter your name below!</p>
+    <label id="applyLabel"  for="apply">name:</label>
+    <input type="text" id="usrapplyname" name="apply">
+    <br>
+
+    <button onclick="roomApply()" id="applyButton">apply</button>
+
+</div>
+<br><br>
+
+</body>
+
+
+<footer>
+    <div id="footerbar">
+        <a id="navbarselector" >By Lui Handford</a> /  
+        <a id="navbarselector" >N1076024</a> 
+    </div>
+</footer>
+</html>
